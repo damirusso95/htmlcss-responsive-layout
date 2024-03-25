@@ -37,6 +37,8 @@ body{font-family: sans-serif;
 }
 /* main */
 
+/* sezione a 5 colonne */
+
 .container-demo{
     display: flex;
     flex-direction: column;
@@ -48,4 +50,12 @@ body{font-family: sans-serif;
 }
 .clean-code{
     margin-top: 1rem;
+}
+
+/* sezione planning */
+
+.container-planning{
+    background-color: violet;
+    margin-top: 2rem;
+    padding: 2rem;
 }
