@@ -48,14 +48,42 @@ body{font-family: sans-serif;
 .demo-application{
     min-height: 300px;
 }
-.clean-code{
+.clean-code, .testimonial-card, .benefits-card{
     margin-top: 1rem;
 }
 
 /* sezione planning */
 
-.container-planning{
+.container-planning, .container-benefits{
     background-color: violet;
     margin-top: 2rem;
     padding: 2rem;
+}
+
+/* sezione testimonials */
+
+.container-testimonials{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.testimonials{
+    padding: 1rem;
+}
+
+.testimonial-card, .testimonials-text
+, .benefits-card{
+    padding: 1rem;
+}
+
+/* sezione benefits */
+.container-benefits{
+    display: flex;
+    -ms-flex-direction: column;
+    align-items: center;
+}
+.benefits-card{
+min-height: 300px;
 }
