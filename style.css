@@ -48,13 +48,14 @@ body{font-family: sans-serif;
 .demo-application{
     min-height: 300px;
 }
-.clean-code, .testimonial-card, .benefits-card, .about-us-text, .about-us-img{
+.clean-code, .testimonial-card, .benefits-card, .about-us-text, .about-us-img,
+.get-started{
     margin-top: 1rem;
 }
 
 /* sezione planning */
 
-.container-planning, .container-benefits{
+.container-planning, .container-benefits, .container-get-started{
     background-color: violet;
     margin-top: 2rem;
     padding: 2rem;
@@ -74,7 +75,8 @@ body{font-family: sans-serif;
 }
 
 .testimonial-card, .testimonials-text
-, .benefits-card, .about-us-text, .about-us-img{
+, .benefits-card, .about-us-text, .about-us-img,
+.get-started{
     padding: 1rem;
 }
 
