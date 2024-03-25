@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{font-family: sans-serif;
+
+}
+
+
+/* header */
+.container-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 480px;
+    background-color: aqua;
+    height: 50px;
+    border: dashed 2px;
+}
+.nav-column{
+    background-color: lightgray;
+    padding: 1rem;
+
+}
