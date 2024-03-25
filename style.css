@@ -48,7 +48,7 @@ body{font-family: sans-serif;
 .demo-application{
     min-height: 300px;
 }
-.clean-code, .testimonial-card, .benefits-card{
+.clean-code, .testimonial-card, .benefits-card, .about-us-text, .about-us-img{
     margin-top: 1rem;
 }
 
@@ -74,16 +74,25 @@ body{font-family: sans-serif;
 }
 
 .testimonial-card, .testimonials-text
-, .benefits-card{
+, .benefits-card, .about-us-text, .about-us-img{
     padding: 1rem;
 }
 
 /* sezione benefits */
 .container-benefits{
     display: flex;
-    -ms-flex-direction: column;
+    flex-direction: column;
     align-items: center;
 }
 .benefits-card{
 min-height: 300px;
+}
+
+/* sezione about us */
+
+.container-about-us{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
