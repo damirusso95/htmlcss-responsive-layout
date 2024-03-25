@@ -7,6 +7,10 @@
 body{font-family: sans-serif;
 
 }
+.boxed{
+    width: 400px;
+    margin: 0 auto;
+}
 
 
 /* header */
@@ -19,9 +23,29 @@ body{font-family: sans-serif;
     background-color: aqua;
     height: 50px;
     border: dashed 2px;
+    margin-bottom: 2rem;
 }
 .nav-column{
     background-color: lightgray;
     padding: 1rem;
 
+}
+
+.debug{
+    background-color: aquamarine;
+    border: dashed 2px;
+}
+/* main */
+
+.container-demo{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.demo-application{
+    min-height: 300px;
+}
+.clean-code{
+    margin-top: 1rem;
 }
