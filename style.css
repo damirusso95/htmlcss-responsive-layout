@@ -26,18 +26,18 @@ header{
     width: 480px;
     background-color: #0084FD;
     height: 50px;
-    border: dashed 2px;
     margin-bottom: 2rem;
 }
 .nav-column{
-    background-color: lightgray;
+    
     padding: 1rem;
+    align-items: center;
 
 }
 
 .debug{
-    background-color:#B5DDFF;
-    border: dashed 2px;
+    
+    border-radius: 25px;
 }
 
 img{
@@ -53,7 +53,14 @@ margin: 1rem 1.5rem;
     border-radius: 100%;
 }
 
-/* sezione h2 */
+/* sezione h */
+
+h1{
+    
+    text-align: center;
+    font-size: 60px;
+    color: #FDC15F;
+}
 
 h2{
     padding: 1.5rem;
@@ -93,12 +100,29 @@ h2{
     font-size: 35px;
 }
 
+.h2-get{
+    text-align: center;
+    color: white;
+}
+
 h3{
     color: #9792E4;
     text-align: left;
     font-size: 30px;
     padding: 1.5rem;
 }
+
+.h3-get{
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 0;
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: 300;
+
+
+}
+
 h4{
     color: #9792E4;
     text-align: left;
@@ -152,6 +176,13 @@ h4{
     padding-bottom: 2rem;
 }
 
+.p-get{
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
 p{
     padding:0 1.5rem;
     text-align: left;
@@ -195,6 +226,19 @@ p{
 
     }
 
+    .btn-white{
+        color:#9792E4;
+        background-color: white;
+        letter-spacing: .1rem;
+        margin: 1rem 1.5rem;
+        font-weight: bold;
+        border: none;
+        width: 250px;
+        padding: 0.8rem 0.8rem;
+        border-radius:50px ;
+
+    }
+
     .fa{
         text-align: center;
         width: 100%;
@@ -221,6 +265,11 @@ p{
     flex-direction: column;
     text-align: center;
     gap: 2rem;
+    background-color: #B5DDFF;
+}
+
+.clean-code{
+    background-color: #B5DDFF;
 }
 .testimonial-card, .benefits-card, .about-us-text, .about-us-img,
 .get-started{
@@ -285,13 +334,22 @@ background-color: white;
 
 }
 
+.btn{
+    text-align: center;
+}
+
 /* footer */
 .container-footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black;
+    background-color: #333;
     color: white;
+}
+
+.footer-text{
+    padding-top: 2rem;
+    text-align: center;
 }
 
 /* media queris tablet */
