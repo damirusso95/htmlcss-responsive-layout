@@ -47,6 +47,7 @@ header{
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .demo-application{
@@ -238,5 +239,14 @@ min-height: 300px;
         }
         .benefits-card{
             width: calc(100% / 3 - 1rem);
+        }
+    }
+
+    /* sezione desktop about us */
+
+    @media screen and (min-width: 1160px){
+        .container-about-us{
+            width: 72%;
+            margin: 0 auto;
         }
     }
