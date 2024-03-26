@@ -48,7 +48,7 @@ body{font-family: sans-serif;
 .demo-application{
     min-height: 300px;
 }
-.clean-code, .testimonial-card, .benefits-card, .about-us-text, .about-us-img,
+.testimonial-card, .benefits-card, .about-us-text, .about-us-img,
 .get-started{
     margin-top: 1rem;
 }
@@ -106,4 +106,36 @@ min-height: 300px;
     justify-content: center;
     background-color: black;
     color: white;
+}
+
+/* media queris tablet */
+
+/* nav tablet */
+@media screen and (min-width: 768px){
+    .container-nav{
+        justify-content: space-between;
+        width: auto;
+    }
+
+    .nav-column{
+        margin: 0 1rem;
+    }
+}
+
+/* sezione demo 5 colonne tablet */
+@media screen and (min-width: 768px){
+    .container-demo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 768px;
+        gap: 1rem;
+    }
+
+    .demo-application{
+        width: calc(67% - 1rem);
+    }
+
+    .clean-code{
+        width: calc(33% - 1rem);
+    }
 }
