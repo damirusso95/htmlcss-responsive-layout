@@ -14,6 +14,10 @@ body{font-family: sans-serif;
 
 
 /* header */
+header{
+    background-color: aqua;
+}
+
 .container-nav{
     display: flex;
     flex-direction: row;
@@ -184,3 +188,22 @@ min-height: 300px;
         margin-right: 2rem;
     }
 }
+
+/* media queries desktop */
+
+/* nav desktop */
+
+@media screen and (min-width: 1160px){
+.container-nav{
+    width: 70%;
+    margin: 0 auto;
+}
+}
+
+/* sezione demo 5 colonne */
+@media screen and (min-width: 1160px){
+    .container-demo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    }
