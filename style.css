@@ -44,6 +44,10 @@ img{
     width: 100%;
 }
 
+.circular{
+    border-radius: 100%;
+}
+
 /* sezione h2 */
 
 h2{
@@ -67,6 +71,18 @@ h2{
     text-align: center;
 }
 
+.h2-testimonials{
+    color: #9792E4;
+    text-align: center;
+    line-height: 2rem;
+}
+
+.h2-testimonials-card{
+    color: white;
+    text-align: center;
+}
+/* sezione p */
+
 .p-clean{
     text-align: center;
     padding: 2rem;
@@ -83,9 +99,23 @@ h2{
 .p-planning-2{
     color: black;
     line-height: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-bottom: 2rem;
     text-align: center;
     font-weight: 500;
+}
+
+.p-testimonials{
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.p-testimonials-card{
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: 1.5rem;
 }
 
 p{
@@ -166,6 +196,10 @@ p{
 
 .testimonials{
     padding: 1rem;
+}
+
+.testimonial-card{
+    background-color: #9792E4;
 }
 
 .testimonial-card, .testimonials-text
