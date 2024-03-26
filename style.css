@@ -58,10 +58,34 @@ h2{
     padding:0 1.5rem;
 }
 
+.h2-planning{
+    color: white;
+}
+
+.h2-planning-2{
+    color: black;
+    text-align: center;
+}
+
 .p-clean{
     text-align: center;
     padding: 2rem;
     line-height: 1.5rem;
+
+}
+
+.p-planning{
+    color: white;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.p-planning-2{
+    color: black;
+    line-height: 1.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 500;
 }
 
 p{
@@ -118,9 +142,17 @@ p{
 /* sezione planning */
 
 .container-planning, .container-benefits, .container-get-started{
-    background-color: violet;
+    background-color:#9792E4;
     margin-top: 2rem;
     padding: 2rem;
+}
+
+.planning-column-2{
+    background-color: white;
+}
+
+.planning-column{
+    background-color: #9792E4;
 }
 
 /* sezione testimonials */
