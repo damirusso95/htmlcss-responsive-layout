@@ -15,7 +15,7 @@ body{font-family: sans-serif;
 
 /* header */
 header{
-    background-color: aqua;
+    background-color: #0084FD;
 }
 
 .container-nav{
@@ -24,7 +24,7 @@ header{
     justify-content: space-around;
     align-items: center;
     width: 480px;
-    background-color: aqua;
+    background-color: #0084FD;
     height: 50px;
     border: dashed 2px;
     margin-bottom: 2rem;
@@ -36,9 +36,63 @@ header{
 }
 
 .debug{
-    background-color: aquamarine;
+    background-color:#B5DDFF;
     border: dashed 2px;
 }
+
+img{
+    width: 100%;
+}
+
+/* sezione h2 */
+
+h2{
+    padding: 1.5rem;
+    text-align: left;
+    font-size: 30px;
+    color: #0084FD;
+}
+
+.h2-clean{
+    text-align: center;
+    padding:0 1.5rem;
+}
+
+.p-clean{
+    text-align: center;
+    padding: 2rem;
+    line-height: 1.5rem;
+}
+
+p{
+    padding:0 1.5rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.btn-blu{
+        color: white;
+        background-color: #0084FD;
+        letter-spacing: .1rem;
+        margin: 0 auto;
+        font-weight: bold;
+        border: none;
+        width: 200px;
+        padding: 0.8rem 0.8rem;
+        border-radius:50px ;
+
+    }
+
+    .fa{
+        text-align: center;
+        width: 100%;
+    }
+
+    .fa-solid{
+        font-size: 80px;
+        padding: 2rem;
+        color: #0084FD;
+    }
 /* main */
 
 /* sezione a 5 colonne */
@@ -51,7 +105,10 @@ header{
 }
 
 .demo-application{
-    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
 }
 .testimonial-card, .benefits-card, .about-us-text, .about-us-img,
 .get-started{
