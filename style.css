@@ -224,9 +224,19 @@ min-height: 300px;
         }
     }
 
-    /* sezione testimonials */
+    /* sezione desktop testimonials */
     @media screen and (min-width: 1160px){
         .testimonials{
             width: 70%;
+        }
+    }
+    /* sezione desktop benefits */
+
+    @media screen and (min-width: 1160px) {
+        .benefits{
+            width: 70%;
+        }
+        .benefits-card{
+            width: calc(100% / 3 - 1rem);
         }
     }
