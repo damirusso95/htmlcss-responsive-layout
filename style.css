@@ -54,6 +54,11 @@ margin: 1rem 1.5rem;
 
 .circular{
     border-radius: 100%;
+    width: 90%;
+    object-fit: cover;
+    aspect-ratio: 1;
+    padding: 1rem;
+    margin-left: 2rem;
 }
 
 /* sezione h */
@@ -413,6 +418,25 @@ background-color: white;
     }
 }
 
+/* testimonials */
+@media screen and (min-width: 768px){
+    .testimonials{
+        width: 70%;
+    }
+    .testimonial-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+    }
+    .img-testimonials{
+        width: 40%;
+    }
+    .text-testimonials{
+        width: 60%;
+    }
+}
+
 /* about us */
 
 
@@ -476,6 +500,18 @@ background-color: white;
     @media screen and (min-width: 1160px){
         .testimonials{
             width: 70%;
+        }
+        .testimonial-card{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 100%;
+        }
+        .img-testimonials{
+            width: 60%;
+        }
+        .text-testimonials{
+            width: 40%;
         }
     }
     /* sezione desktop benefits */
