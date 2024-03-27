@@ -34,6 +34,9 @@ header{
     align-items: center;
 
 }
+i{
+    color: white;
+ }
 
 .debug{
     
@@ -350,6 +353,10 @@ background-color: white;
 .footer-text{
     padding-top: 2rem;
     text-align: center;
+}
+
+.fa-bars{
+    font-size: 25px;
 }
 
 /* media queris tablet */
